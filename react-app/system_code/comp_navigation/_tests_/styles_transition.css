@@ -1,0 +1,60 @@
+.item-enter {
+    opacity: 0;
+}
+.item-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+.item-exit {
+    opacity: 1;
+}
+.item-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+/*=====================*/
+/*=====================*/
+/*=====================*/
+
+
+
+.fadeInput-enter {
+    opacity: 0.01;
+}
+
+.fadeInput-enter.fadeInput-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.fadeInput-leave {
+    opacity: 1;
+}
+
+.fadeInput-leave.fadeInput-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+/*=====================*/
+/*=====================*/
+/*=====================*/
+
+.menu2-enter {
+    opacity: 0;
+    transform: scale(0.9);
+}
+.menu2-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+}
+.menu2-exit {
+    opacity: 1;
+}
+.menu2-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+}
+
+

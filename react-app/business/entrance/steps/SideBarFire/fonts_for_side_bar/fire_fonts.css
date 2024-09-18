@@ -1,0 +1,37 @@
+
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('Roboto-Regular.ttf');
+
+    /*color: #1b3245;*/
+    /*color: 27,50,69,100;*/
+
+}
+
+@font-face {
+    font-family: 'roboto-medium';
+    src: url('Roboto-Medium.ttf');
+
+    /*color: #1b3245;*/
+    /*color: 27,50,69,100;*/
+
+}
+
+
+@font-face {
+    font-family: 'google-sans-medium';
+    /*OK section headers+... !!!*/
+    src: url('google-sans-medium-web.woff2');
+
+}
+
+@font-face {
+    font-family: 'google-public-sans-light';
+    /*OK logo !!!*/
+    src: url('PublicSans-Light.ttf');
+
+}
+
+
+

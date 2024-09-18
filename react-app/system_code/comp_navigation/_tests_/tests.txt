@@ -1,0 +1,68 @@
+                  <CSSTransition
+                      in={global_props.navigation.visibility.hamburger_open}
+
+                      nodeRef={nodeRef}
+
+                      timeout={500}
+                      classNames={"fadeInput"}
+                      // classNames={"menu2"}
+                      // classNames={"fadeInput"}
+                      unmountOnExit
+
+                      // transitionName={"fadeInput"}
+                      // transitionEnterTimeout={500}
+                      // transitionLeaveTimeout={300}
+
+                      // onEnter={() => setShowButton(false)}
+                      // onExited={() => setShowButton(true)}
+                  >
+                  <ClickAwayListener onClickAway={(e)=> {
+                      handleClickAway(e)
+                  }}>
+
+                      <div
+
+                          style={{
+
+                              zIndex:90909,
+                              // backgroundColor:'red',
+                              position:'fixed',
+
+                              width:'100%',
+                              height:'auto',
+
+                              left: global_props.navigation.visibility.xy_data_menu?.menu_x?(global_props.navigation.visibility.xy_data_menu.menu_x  ):0, //correction for Mozilla
+                              top:  global_props.navigation.visibility.xy_data_menu?.menu_y?(global_props.navigation.visibility.xy_data_menu.menu_y):0,
+
+                          }}
+
+                      >
+
+                          <div
+                              // sx = {box_style}
+                              style={{
+                                  position:'relative',
+                                  width:'100%',
+                                  // top:200,
+                                  // left:300,
+                                  // backgroundColor:'white',
+                                  // left:params.xx-1, //correction for Mozilla
+                                  // top:params.yy+55,
+                                  // top:params.yy,
+                                  boxShadow: 'none',
+                                  // width:'auto',
+                                  // border: '1px solid red',
+                                  backgroundColor:'white',
+                              }}
+                          >
+                              {/*<MenuHamburger />*/}
+                              <div>111111111111</div>
+                              <div>111111111111</div>
+                              <div>111111111111</div>
+                              <div>111111111111</div>
+                              <div>111111111111</div>
+                          </div>
+
+                      </div>
+                  </ClickAwayListener>
+                  </CSSTransition>

@@ -1,0 +1,37 @@
+
+
+@font-face {
+
+    font-family: 'sans-serif-card';
+    font-style: normal;
+    font-weight: 400;
+
+    src: url(sans_fire.woff2) format('woff2');
+
+}
+
+@font-face {
+
+    font-family: 'roboto-card';
+    font-style: normal;
+    font-weight: 400;
+
+    src: url(sans_fire.woff2) format('woff2');
+
+}
+
+/*{!*poppins*!}*/
+/*{!*montserrat*!}*/
+/*{!*judson*!}*/
+/*{!*lexend*!}*/
+
+@font-face {
+
+    font-family: 'poppins-regular';
+    font-style: normal;
+    font-weight: 400;
+
+    src: url(Poppins-Regular.ttf) format('truetype');
+
+}
+

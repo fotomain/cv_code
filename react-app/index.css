@@ -1,0 +1,44 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+    border-width: 0;
+}
+
+
+.star1 {
+    /*-webkit-text-security:disc;*/
+    /*text-security:disc !important;*/
+    -webkit-text-security: disc !important;
+
+    /*-webkit-text-security:square;*/
+}
+
+.img0 {
+    display: flex;
+    /*max-width:300px;*/
+    /*max-height:424px;*/
+    /*max-width:149px;*/
+    /*max-height:212px;*/
+
+    /*v2*/
+    width:auto;
+    height: 100%;
+    max-height:300px;
+
+    /*!*v2*!*/
+    /*width:100%;*/
+    /*height: auto;*/
+
+    /*!*v1*!*/
+    /*width: auto;*/
+    /*height: auto;*/
+}

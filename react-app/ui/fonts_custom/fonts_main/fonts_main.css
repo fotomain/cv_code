@@ -1,0 +1,43 @@
+
+
+@font-face {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+
+    src: url(./inter/Inter-Regular.ttf) format('truetype');
+
+
+}
+
+@font-face {
+
+    font-family: 'InterLight';
+    font-style: normal;
+    font-weight: 400;
+
+    src: url(./inter/Inter-Light.ttf) format('truetype');
+
+
+}
+
+@font-face {
+
+    font-family: 'oswald';
+    font-style: normal;
+    font-weight: 400;
+
+    src: url(./oswald/Oswald-Regular.ttf) format('truetype');
+
+}
+
+@font-face {
+
+    font-family: 'hammersmith-one';
+    font-style: normal;
+    font-weight: 400;
+
+    src: url(./HammersmithOne-Regular.ttf) format('truetype');
+
+}
