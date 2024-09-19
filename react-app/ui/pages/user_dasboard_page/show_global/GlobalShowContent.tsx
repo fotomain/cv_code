@@ -2,7 +2,7 @@
 import * as ReactDOM from "react-dom/client";
 
 import React, {useEffect, useRef} from "react";
-import {GlobalsContext} from "../../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../../system_state/context_globals/globals_context";
 import {Alert, Fade, Snackbar} from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 

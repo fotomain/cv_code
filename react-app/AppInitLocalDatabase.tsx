@@ -18,7 +18,7 @@ import {f_read_from_states, is_empty} from "./system_code/code_global/GlobalFunc
 import {crud_exec_function} from "./system_state/state_old_school/state_saga/crud_exec_function";
 
 
-import {GlobalsContext} from "./system_code/context_globals/globals_context";
+import {GlobalsContext} from "./system_state/context_globals/globals_context";
 import global_names from "./system_state/state_old_school/state_reducers/global_names";
 
 import AppInitTheme from "./AppInitTheme";

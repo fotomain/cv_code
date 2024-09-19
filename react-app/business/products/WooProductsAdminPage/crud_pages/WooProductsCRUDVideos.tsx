@@ -4,7 +4,7 @@ import {tw_col_center} from "../../../../system_code/tw/tw_tools";
 import React from "react";
 import WooProductsCRUDVideosCREATEPage from "./WooProductsCRUDVideosCREATEPage";
 import CRUDTabPanelBasic from "../CRUDTabPanelBasic";
-import {GlobalsContext} from "../../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../../system_state/context_globals/globals_context";
 import {isCyclic} from "../../../../system_code/code_global/GlobalFunctions";
 import WooProductsCRUDVideosDELETEPage from "./WooProductsCRUDVideosDELETEPage";
 import WooProductsCRUDVideosREADPage from "./WooProductsCRUDVideosREADPage";

@@ -1,6 +1,6 @@
 
 import React from "react";
-import {GlobalsContext} from "../context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 import NavbarFireSide from "../../business/entrance/steps/user_navigation/NavbarFireSide";
 import GlobalShowContent from "../../ui/pages/user_dasboard_page/show_global/GlobalShowContent";
 

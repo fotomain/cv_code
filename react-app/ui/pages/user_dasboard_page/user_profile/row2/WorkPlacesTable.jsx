@@ -27,7 +27,7 @@ import {styled} from "@mui/styles";
 
 import IconWithShowAfter from "../../show_global/IconWithShowAfter";
 import {tw_row_left} from "../../../../../system_code/tw/tw_tools";
-import {GlobalsContext} from "../../../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../../../system_state/context_globals/globals_context";
 import {
     fi_login_places_crud_delete,
     fi_login_places_crud_disconnect_start

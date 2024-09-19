@@ -17,7 +17,7 @@ import './fonts_for_side_bar/material_fonts.css'
 //
 // export default SideBarFire
 
-import {GlobalsContext} from "../../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../../system_state/context_globals/globals_context";
 
 import FireSideItemSingle from "./comp_fire/FireSideItemSingle";
 import FireSideSectionHeader from "./comp_fire/FireSideSectionHeader";

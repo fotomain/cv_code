@@ -1,7 +1,7 @@
 
 import React, {useEffect, useRef, useState} from "react";
 import {SvgIcon} from "@mui/material";
-import {GlobalsContext} from "../context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 import {useTheme} from "@mui/styles";
 
 const HamburgerButton = (props:any) => {

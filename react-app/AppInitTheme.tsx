@@ -23,9 +23,9 @@ import MainlStyles from './ui/theme/main_styled'
 
 import {ThemeProvider,useTheme,  createTheme} from '@mui/material/styles';
 
-import {GlobalsContext} from "./system_code/context_globals/globals_context";
+import {GlobalsContext} from "./system_state/context_globals/globals_context";
 import {get_user_device_features, get_user_device_info} from "./system_code/code_global/get_user_device_info";
-import {page_orientation} from "./system_code/context_globals/globals_types";
+import {page_orientation} from "./system_state/context_globals/globals_types";
 
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';

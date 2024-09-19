@@ -6,7 +6,7 @@ import {useDispatch, useSelector} from "react-redux";
 
 import {SEL_CART_DATA} from "../../../system_state/products_state/selectors/cart_selector";
 import {is_empty, JSON_stringify} from "../../../system_code/code_global/GlobalFunctions";
-import {GlobalsContext} from "../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../system_state/context_globals/globals_context";
 import ProductCardCentered from "./CardCentered/ProductCardCentered";
 import {useLocation} from "react-router-dom";
 

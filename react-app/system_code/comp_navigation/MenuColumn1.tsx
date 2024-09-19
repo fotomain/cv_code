@@ -3,7 +3,7 @@ import React from "react";
 import {useTheme} from "@mui/styles";
 import {useHistory} from "react-router";
 import {hamburger_menu_hide} from "./hamburger_menu_hide";
-import {GlobalsContext} from "../context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 
 const MenuItemProgram = (props:any) => {
 

@@ -11,6 +11,7 @@ import AppInitContextGlobals from "./AppInitContextGlobals";
 // == user_doc user found get
 const debug_sqlite = false
 const debug_login_google = false
+const debug_orientationchange = false
 //=== DOC c+ o+
 const AppRoot = () => {
 
@@ -23,5 +24,5 @@ const AppRoot = () => {
     )
 };
 
-export {debug_login_google, debug_sqlite}
+export {debug_login_google, debug_sqlite, debug_orientationchange}
 export default AppRoot

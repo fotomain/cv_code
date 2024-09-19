@@ -3,7 +3,7 @@
 import React, {useEffect} from "react";
 
 import "swiper/swiper-bundle.css";
-import {GlobalsContext} from "../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../system_state/context_globals/globals_context";
 import {useTheme} from "@mui/styles";
 import {useHistory} from "react-router";
 import TitleMain from "./inner/TitleMain";

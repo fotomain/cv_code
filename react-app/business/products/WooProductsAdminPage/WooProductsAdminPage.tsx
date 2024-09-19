@@ -36,7 +36,7 @@ import {tw_col_center} from "../../../system_code/tw/tw_tools";
 import {Props1Tab, TabPanel} from "./MUITools";
 import WooProductsCRUDVideos from "./crud_pages/WooProductsCRUDVideos";
 import OfferToEntrance from "../../../ui/pages/user_dasboard_page/OfferToEntrance";
-import {GlobalsContext} from "../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../system_state/context_globals/globals_context";
 import ProductsCRUDStateProvider from "../../../system_state/products_state/ProductsCRUDStateProvider";
 import ProductsTableCRUD from "../products_crud_table/ProductsTableCRUD";
 import {JSON_stringify} from "../../../system_code/code_global/GlobalFunctions";

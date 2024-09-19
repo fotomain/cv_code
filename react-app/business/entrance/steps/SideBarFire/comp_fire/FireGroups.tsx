@@ -4,7 +4,7 @@ import {Box, Divider, Stack} from "@mui/material";
 import React from "react";
 import FireOneGroup from "./FireOneGroup";
 
-import {GlobalsContext} from "../../../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../../../system_state/context_globals/globals_context";
 import {random_key} from "../../../../../system_code/code_global/GlobalFunctions";
 
 /*======= DOC STRUCTURE of Group */

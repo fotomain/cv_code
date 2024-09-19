@@ -8,7 +8,7 @@ import { createReducer } from '@reduxjs/toolkit';
 import {CART_ADD_1UNIT_ACTION} from "../actions";
 import {CART_REMOVE_1UNIT_ACTION,} from '../actions';
 import {ICartState} from "../models/cart_model";
-import {cart_products_from_localStorage} from "../../../system_code/context_globals/globals_context";
+import {cart_products_from_localStorage} from "../../context_globals/globals_context";
 import {is_empty} from "../../../system_code/code_global/GlobalFunctions";
 
                                 //CART_ACTION_STEP_3

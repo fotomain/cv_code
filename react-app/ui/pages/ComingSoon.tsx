@@ -4,7 +4,7 @@
 import { css } from '@emotion/react';
 
 import React from "react";
-import {GlobalsContext} from "../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 import {css_column_center} from "./home_page/Section4_ChooseProgram/TargetFilterLevel4_Days";
 import H16 from "../../business/entrance/steps/H16";
 

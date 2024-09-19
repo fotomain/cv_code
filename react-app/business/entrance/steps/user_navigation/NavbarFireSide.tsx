@@ -16,8 +16,8 @@ import {
 
 import SideBarFire from "../SideBarFire/SideBarFire";
 import {useHistory} from "react-router-dom";
-import {GlobalsContext} from "../../../../system_code/context_globals/globals_context";
-import {drawer_left_width} from "../../../../system_code/context_globals/globals_types";
+import {GlobalsContext} from "../../../../system_state/context_globals/globals_context";
+import {drawer_left_width} from "../../../../system_state/context_globals/globals_types";
 import DrawerLeft from "../DrawerLeft/DrawerLeft";
 
 import NavBar from "../../../../system_code/comp_navigation/NavBar";

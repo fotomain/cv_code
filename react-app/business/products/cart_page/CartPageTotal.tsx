@@ -4,7 +4,7 @@
 import { css } from '@emotion/react';
 
 import React, {useEffect, useState} from "react";
-import {GlobalsContext} from "../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../system_state/context_globals/globals_context";
 import TitleMain from "../../../ui/pages/home_page/inner/TitleMain";
 import AppearIt from "../../../ui/pages/home_page/inner/AppearIt";
 import {PRODUCTS_READ_RUN_ACTION} from "../../../system_state/products_state/actions";

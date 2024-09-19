@@ -8,7 +8,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import {DashboardCustomizeOutlined, Logout, PersonAdd, Settings} from "@mui/icons-material";
 import {sign_out_with_google} from "../firebase_stack/global_google_in_out";
 import {hamburger_toggle} from "./hamburger_toggle";
-import {GlobalsContext} from "../context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 import {close_hamburger_menu} from "./close_hamburger_menu";
 
 //===DOC  https://codesandbox.io/s/pdw9v8?file=/src/Demo.tsx

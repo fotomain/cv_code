@@ -1,6 +1,6 @@
 
 import React from "react";
-import {GlobalsContext} from "../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../system_state/context_globals/globals_context";
 
 const SignInModeCheckUserForm = (props:any) => {
 

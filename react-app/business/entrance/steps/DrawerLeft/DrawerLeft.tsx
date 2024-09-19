@@ -4,7 +4,7 @@ import {styled} from "@mui/styles";
 import {Drawer} from "@mui/material";
 import { Theme } from '@mui/material/styles';
 import React from "react";
-import {GlobalsContext} from "../../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../../system_state/context_globals/globals_context";
 
 declare module '@mui/styles/defaultTheme' {
     interface DefaultTheme extends Theme {}

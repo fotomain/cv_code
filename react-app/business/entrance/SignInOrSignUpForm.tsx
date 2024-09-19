@@ -4,7 +4,7 @@ import EnterWithGoogle from "./steps/EnterWithGoogle";
 import EnterWithFacebook from "./steps/EnterWithFacebook";
 import EnterWithX from "./steps/EnterWithX";
 import EnterWithEmail from "./steps/EnterWithEmail";
-import {GlobalsContext} from "../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 import {useHistory} from "react-router";
 import fi_sign_in_user_email_password from "./steps/fi_sign_in_user_email_password";
 import sign_up_user_email_password from "./steps/fi_sign_up_user_email_password";

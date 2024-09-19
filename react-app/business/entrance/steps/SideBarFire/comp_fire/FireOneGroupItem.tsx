@@ -4,7 +4,7 @@
 import {Box, Link, Stack} from "@mui/material"
 import React, {useEffect, useState} from "react";
 
-import {GlobalsContext} from "../../../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../../../system_state/context_globals/globals_context";
 import IconCustom from "../IconCustom";
 
 

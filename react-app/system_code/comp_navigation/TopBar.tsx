@@ -1,7 +1,7 @@
 
 import React from "react";
 
-import {GlobalsContext} from "../context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 import {AccessAlarmOutlined, Twitter} from "@mui/icons-material";
 import IconButton from "@mui/material";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";

@@ -1,6 +1,6 @@
 
 import React, {useEffect} from "react";
-import {GlobalsContext} from "../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../system_state/context_globals/globals_context";
 import OTPInputForm from "../otp/OTPInputForm";
 import {useHistory} from "react-router-dom";
 import {Button} from "@mui/material";
@@ -12,7 +12,7 @@ import { httpsCallable } from "firebase/functions";
 
 import fi_sign_in_user_email_password from "./fi_sign_in_user_email_password";
 import fi_create_user_email_password from "./fi_create_user_email_password";
-import {initial_setings} from "../../../system_code/context_globals/globals_initial_setings";
+import {initial_setings} from "../../../system_state/context_globals/globals_initial_setings";
 
 
 const SignUpModeCheckOTPForm = (props:any) => {

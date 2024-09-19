@@ -6,7 +6,7 @@
 import { css } from '@emotion/react';
 
 import React from "react";
-import {GlobalsContext} from "../context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 import AppBarGlobal from "./AppBarGlobal";
 import LayoutCustom from "../../ui/pages/LayoutCustom";
 import LayoutAdminSpace from "./LayoutAdminSpace";

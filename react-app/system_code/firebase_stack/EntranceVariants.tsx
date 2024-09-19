@@ -5,7 +5,7 @@ import { Stack } from '@mui/material';
 import React, {useState} from 'react';
 import {StackColumn, StackRow} from '../code_global/GlobalAtoms';
 // import {StackColumn, StackRow} from '../code_global/global_atoms';
-import {GlobalsContext} from "../context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 import EntranceWithGoogle from "./EntranceWithGoogle";
 // import {StackColumn, StackRow} from "../code_global/global_atoms";
 

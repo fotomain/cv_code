@@ -8,7 +8,7 @@ import root_saga from '../sagas/root_saga';
 import {CART_ADD_1UNIT_ACTION} from "../actions";
 import {JSON_stringify} from "../../../system_code/code_global/GlobalFunctions";
 import React from "react";
-import {GlobalsContext} from "../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../context_globals/globals_context";
 
 const sagaMiddleware = createSagaMiddleware();
 

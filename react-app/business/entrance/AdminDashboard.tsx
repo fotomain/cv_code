@@ -1,6 +1,6 @@
 
 import React, {useEffect} from "react";
-import {GlobalsContext} from "../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 import {Button} from "@mui/material";
 import {sign_out_with_google} from "../../system_code/firebase_stack/global_google_in_out";
 import {fidb} from "../../system_code/firebase_stack/fi_firebase-config";

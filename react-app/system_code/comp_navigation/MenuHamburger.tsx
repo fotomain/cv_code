@@ -1,9 +1,9 @@
 
 import React from "react";
-import {GlobalsContext} from "../context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 
 import {useHistory} from "react-router";
-import {page_orientation} from "../context_globals/globals_types";
+import {page_orientation} from "../../system_state/context_globals/globals_types";
 import Spacer from "../../ui/components/Spacer";
 import MenuColumn1 from "./MenuColumn1";
 import MenuColumn2 from "./MenuColumn2";

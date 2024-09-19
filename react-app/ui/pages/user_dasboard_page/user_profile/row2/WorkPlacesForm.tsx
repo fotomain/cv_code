@@ -2,7 +2,7 @@
 import React from "react";
 import WorkPlacesTable from "./WorkPlacesTable";
 import {tw_col_left, tw_opacity_lignt} from "../../../../../system_code/tw/tw_tools";
-import {GlobalsContext} from "../../../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../../../system_state/context_globals/globals_context";
 
 const WorkPlacesFormStatus = () => {
     return(

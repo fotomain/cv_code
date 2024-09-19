@@ -8,7 +8,7 @@ import Typewriter from 'typewriter-effect';
 
 import React, {useEffect} from "react";
 import {useHistory} from "react-router";
-import {GlobalsContext} from "../../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../../system_state/context_globals/globals_context";
 import {free_space_if_no_largest_width, largest_width} from "../../../../AppInitTheme";
 import {card_main_background} from "../AppHomeFinal";
 import {ButtonOnCard} from "../inner/ButtonOnCard";

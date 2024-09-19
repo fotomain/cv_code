@@ -6,7 +6,7 @@
 
 
 import React, { useEffect, useRef } from 'react';
-import { GlobalsContext } from '../context_globals/globals_context';
+import { GlobalsContext } from '../../system_state/context_globals/globals_context';
 
 import {StackRow} from "../code_global/GlobalAtoms";
 import {sign_in_with_google, sign_out_with_google} from './global_google_in_out';

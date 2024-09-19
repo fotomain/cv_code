@@ -21,7 +21,7 @@ import {LocalActivityTwoTone, ProductionQuantityLimitsOutlined} from "@mui/icons
 
 import {tw_get_current_breakpoints} from "../../../system_code/tw/tw_tools";
 import UserDasboardCustomPages from "./UserDasboardCustomPages";
-import {GlobalsContext} from "../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../system_state/context_globals/globals_context";
 import {is_empty} from "../../../system_code/code_global/GlobalFunctions";
 
 

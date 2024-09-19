@@ -12,7 +12,7 @@ import EntranceProviders from "./system_code/firebase_stack/EntranceProviders";
 import GridMemoPage from "./system_code/comp_grid/GridMemo/GridMemoPage";
 import LayoutEntrance from "./system_code/comp_navigation/LayoutEntrance";
 
-import {GlobalsContext} from "./system_code/context_globals/globals_context";
+import {GlobalsContext} from "./system_state/context_globals/globals_context";
 
 import EntranceRoutes from "./business/entrance/steps/EntranceRoutes";
 import DrawersLeftRight from "./business/entrance/steps/DrawerLeft/DrawersLeftRight";

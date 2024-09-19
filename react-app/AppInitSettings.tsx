@@ -20,8 +20,8 @@ import '@ionic/react/css/display.css';
 
 
 import AppInitTheme from "./AppInitTheme";
-import {GlobalsContext} from "./system_code/context_globals/globals_context";
-import {drawer_left_width} from "./system_code/context_globals/globals_types";
+import {GlobalsContext} from "./system_state/context_globals/globals_context";
+import {drawer_left_width} from "./system_state/context_globals/globals_types";
 import AppInitReduxData from "./AppInitReduxData";
 
 interface Props {

@@ -5,7 +5,7 @@ import React, {useEffect, useRef} from "react";
 import NavBar from "../system_code/comp_navigation/NavBar";
 import TopBar from "../system_code/comp_navigation/TopBar";
 import Spacer from "../ui/components/Spacer";
-import {GlobalsContext} from "../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../system_state/context_globals/globals_context";
 
 const AppBarCustom: React.FC = (props:any) => {
 

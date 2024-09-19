@@ -1,7 +1,7 @@
 
 import React, {useEffect} from "react";
 import {tw_col_center} from "../../../system_code/tw/tw_tools";
-import {GlobalsContext} from "../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../system_state/context_globals/globals_context";
 import {process_API_KEY, process_API_URL, process_EMAIL_FROM, process_EMAIL_TO, process_URL_ROOT_APP} from "./api_keys";
 
 import {Button} from "@mui/material";

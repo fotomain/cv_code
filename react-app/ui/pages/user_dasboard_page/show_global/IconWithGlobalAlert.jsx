@@ -2,7 +2,7 @@
 
 import {Box} from "@mui/material";
 import React from "react";
-import {GlobalsContext} from "../../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../../system_state/context_globals/globals_context";
 import {show_global_alert} from "./show_global_tools";
 
 

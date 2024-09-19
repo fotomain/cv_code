@@ -1,6 +1,6 @@
 import React from "react";
 
-import {GlobalsProvider} from "./system_code/context_globals/globals_context";
+import {GlobalsProvider} from "./system_state/context_globals/globals_context";
 import AppInitFirebaseSettings from "./AppInitFirebaseSettings";
 
 interface Props {

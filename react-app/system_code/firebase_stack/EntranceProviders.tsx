@@ -2,7 +2,7 @@
 //rsi
 
 import React from 'react';
-import {GlobalsContext} from "../context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 import EntranceVariants from './EntranceVariants';
 
 const EntranceProviders = (props:any) => {

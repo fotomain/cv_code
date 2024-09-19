@@ -5,7 +5,7 @@ import {Box} from "@mui/material";
 import {DragIndicator, Visibility} from "@mui/icons-material";
 import FireDraggableItem from "./FireDraggableItem";
 
-import {GlobalsContext} from "../../../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../../../system_state/context_globals/globals_context";
 
 const FireDraggableList = (props:any) =>{
 

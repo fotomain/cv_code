@@ -12,7 +12,7 @@ import {Button, createTheme, Stack, Tabs} from "@mui/material";
 import {styled, ThemeProvider, withStyles} from "@mui/styles";
 import UserDasboardCustomTabs from "./UserDasboardCustomTabs";
 import {tw_get_current_breakpoints} from "../../../system_code/tw/tw_tools";
-import {GlobalsContext} from "../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../system_state/context_globals/globals_context";
 import LayoutBrand from "../../../business/entrance/steps/LayoutBrand";
 import {useHistory} from "react-router-dom";
 import LayoutWebPages from "../../../system_code/comp_navigation/LayoutWebPages";

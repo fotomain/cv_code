@@ -5,7 +5,7 @@ import React from "react";
 import FireOneGroupHeader from "./FireOneGroupHeader";
 
 import FireOneGroupItem from "./FireOneGroupItem";
-import {GlobalsContext} from "../../../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../../../system_state/context_globals/globals_context";
 import {random_key} from "../../../../../system_code/code_global/GlobalFunctions";
 
 const FireOneGroup = (props:any) =>{

@@ -1,6 +1,6 @@
 
 import React from "react";
-import {GlobalsContext} from "../context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 import AppUserAvatar from "./AppUserAvatar";
 import {hamburger_toggle} from "./hamburger_toggle";
 import {useHistory} from "react-router";

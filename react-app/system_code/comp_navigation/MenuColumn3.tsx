@@ -1,8 +1,8 @@
 
 import React from "react";
-import {GlobalsContext} from "../context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 
-import {page_orientation} from "../context_globals/globals_types";
+import {page_orientation} from "../../system_state/context_globals/globals_types";
 import {useTheme} from "@mui/styles";
 
 // interface Props {

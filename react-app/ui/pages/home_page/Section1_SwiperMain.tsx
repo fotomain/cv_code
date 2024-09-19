@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 
 import './Section1_SwiperMain/swiper_home_main.css'
 
-import {GlobalsContext} from "../../../system_code/context_globals/globals_context";
+import {GlobalsContext} from "../../../system_state/context_globals/globals_context";
 
 // "version": "8.4.6",
 // npm i swiper@latest

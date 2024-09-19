@@ -7,7 +7,7 @@ import {makeStyles} from "@mui/styles";
 import { useHistory } from "react-router";
 
 import React, {useEffect, useRef, useState} from "react";
-import {GlobalsContext} from "../context_globals/globals_context";
+import {GlobalsContext} from "../../system_state/context_globals/globals_context";
 import HamburgerButton from "./HamburgerButton";
 
 import {Badge, ClickAwayListener, IconButton} from "@mui/material";
