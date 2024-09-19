@@ -1,33 +1,32 @@
-
 import {GlobalsContext} from "./system_code/context_globals/globals_context";
 import React, {useEffect} from "react";
 
 import AppInitSettings from "./AppInitSettings";
 
-interface Props  {
-    user_work_data?:any,
-    children?:JSX.Element
+interface Props {
+    user_work_data?: any,
+    children?: JSX.Element
 }
 
-const AppInitFirebaseSettings: React.FC<Props> = (props:Props) => {
+const AppInitFirebaseSettings: React.FC<Props> = (props: Props) => {
 
-    const { global_props, global_dispatch } = React.useContext(GlobalsContext);
+    const {global_props, global_dispatch} = React.useContext(GlobalsContext);
 
     useEffect(() => {
 
-        console.log('=== do global_props.default_settings.is_ready  ',global_props.default_settings.is_ready)
+        console.log('=== do global_props.default_settings.is_ready  ', global_props.default_settings.is_ready)
 
-            if(!global_props.default_settings.is_ready) {
+        if (!global_props.default_settings.is_ready) {
 
-                //TODO global_props.default_settings.is_ready FROM FIREBASE
+            //TODO global_props.default_settings.is_ready FROM FIREBASE
 
-                let tdata = global_props
-                tdata.default_settings.is_ready = true
-                global_dispatch({
-                    type: 'SETTER_GLOBALPROPS',
-                    global_new_data: {global_props: tdata},
-                })
-            }
+            let tdata = global_props
+            tdata.default_settings.is_ready = true
+            global_dispatch({
+                type: 'SETTER_GLOBALPROPS',
+                global_new_data: {global_props: tdata},
+            })
+        }
 
         return () => {
 
@@ -35,7 +34,7 @@ const AppInitFirebaseSettings: React.FC<Props> = (props:Props) => {
     }, [global_props.default_settings.is_ready]);
 
 
-    return(
+    return (
         <>
             {(!global_props.default_settings.is_ready)
                 ?

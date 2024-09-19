@@ -1,25 +1,23 @@
-
-
 import React from "react";
 
-import { Provider as ReduxProvider } from 'react-redux';
+import {Provider as ReduxProvider} from 'react-redux';
 import configureStore from './system_state/state_old_school/state_redux/store';
 
 import AppInitLocalDatabase from "./AppInitLocalDatabase";
 
-const store = configureStore({  });
+const store = configureStore({});
 
-const AppInitReduxData=()=>{
+const AppInitReduxData = () => {
 
-    return(
+    return (
 
-            <ReduxProvider store={store}>
+        <ReduxProvider store={store}>
 
-                <AppInitLocalDatabase />
+            <AppInitLocalDatabase/>
 
-            </ReduxProvider>
+        </ReduxProvider>
 
-        )
+    )
 
 }
 
